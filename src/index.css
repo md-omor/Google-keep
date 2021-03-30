@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto 30px
+}
+
+.logos span {
+    color: #35495e;
+    font-family: Product Sans, system, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 20px
+}
+
+.create-note{
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    z-index: 10
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, .5);
+  font-family: Product Sans, system, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: rgba(0, 0, 0, .5);
+  font-family: Product Sans, system, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px
+}
+
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+  color: rgba(0, 0, 0, .5);
+  font-family: Product Sans, system, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(0, 0, 0, .5);
+  font-family: Product Sans, system, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 14px
+}
+
+input {
+    font-family: Product Sans, system, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 1px 3px 0px #6b6d6bd1;
+    padding: 10px 15px;
+    width: 100%;
+  }
+
+  textarea {
+    font-family: Roboto, system, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Arial, sans-serif;
+    resize: none;
+    line-height: 1.5;
+    min-height: 5em;
+    max-height: 15vh;
+    margin-top: -5px;
+    width: 100%;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 1px 3px 0px #6b6d6bd1;
+    padding: 10px 15px;
+  }
+
+  .create_btn{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background: #61DAFB;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    margin-left: 500px;
+  }
+  .btn{
+    margin-left: 560px;
+    margin-top: -28px;
+}
+
+.notePerItem {
+    position: relative;
+    display: block;
+    width: 209px;
+    box-shadow: 0px 1px 3px 0px #6b6d6bd1;
+    padding: 10px 25px;
+    font-family: sans-serif;
+    font-size: 12px;
+    height: 110px;
+}
+
+.note {
+    margin-left: 75px;
+    margin-top: 35px;
+}
+
+.editIcon {
+    position: absolute;
+    margin-left: 200px;
+    display: flex;
+    width: 30px;
+    top: 0;
+    right: 22px;
+}
+
+.notePerItem h1 {
+    margin-bottom: 10px;
+}
+
+.deleteIcon {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.done {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+footer {
+  margin-top: 250px;
+  margin-left: 550px;
+}
+
+.peranNote {
+  display: inline-block;
+}
